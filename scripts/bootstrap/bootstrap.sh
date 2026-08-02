@@ -67,3 +67,4 @@ function bazel_build() {
 function get_bazel_bin_path() {
   _run_bootstrapping_bazel info "bazel-bin" || echo "bazel-bin"
 }
+ 
